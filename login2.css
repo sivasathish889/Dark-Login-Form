@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+
+}
+form {
+    background-color: black;
+    width: 250px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+form:hover {
+    border: 2px solid aqua;
+    box-shadow: 0 0 50px 2px aqua;
+}
+form h1 {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+form .input-box {
+    padding: 10px 15px;
+}
+form .input-box input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    color: white;
+}
+form .input-box input::placeholder {
+    color: white;
+}
+form .remember .checkbox {
+    margin-left: 15px;
+}
+.remember span {
+    font-size: 14px;
+}
+button {
+    width: 70%;
+    height: 30px;
+    margin:10px 15%;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover {
+    background-color: aqua;
+    box-shadow: 0 0 15px aqua;
+}
+.signup p {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.signup a {
+    text-decoration: none;
+    font-size: 12px;
+    color: aqua;
+}
+.signup a:hover {
+    text-shadow: 0 0 5px aqua;
+}
